@@ -1,0 +1,85 @@
+:root {
+    --roxo: #6f2da8;
+    --bs-body-font-family: Arial, sans-serif;
+    --bs-body-color: var(--roxo);
+    --bs-body-bg: #fff;
+    --bs-border-color: var(--roxo);
+    --bs-link-color: var(--roxo);
+    --bs-link-hover-color: var(--roxo);
+}
+
+main.container {
+    max-width: 900px;
+}
+
+form {
+    max-width: 720px;
+}
+
+fieldset {
+    min-width: 0;
+}
+
+legend {
+    float: none;
+}
+
+.form-control {
+    color: var(--roxo);
+    border-color: var(--roxo);
+    min-height: 44px;
+}
+
+.form-control:focus {
+    color: var(--roxo);
+    border-color: var(--roxo);
+    box-shadow: none;
+}
+
+.btn-success {
+    --bs-btn-bg: var(--roxo);
+    --bs-btn-border-color: var(--roxo);
+    --bs-btn-hover-bg: #fff;
+    --bs-btn-hover-color: var(--roxo);
+    --bs-btn-hover-border-color: var(--roxo);
+    --bs-btn-active-bg: var(--roxo);
+    --bs-btn-active-border-color: var(--roxo);
+    --bs-btn-focus-shadow-rgb: 111, 45, 168;
+    min-height: 44px;
+}
+
+.table {
+    --bs-table-color: var(--roxo);
+    --bs-table-bg: #fff;
+    --bs-table-border-color: var(--roxo);
+    font-size: .9rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.table thead {
+    --bs-table-bg: var(--roxo);
+    --bs-table-color: #fff;
+}
+
+.table th,
+.table td {
+    min-width: 90px;
+}
+
+summary {
+    cursor: pointer;
+}
+
+[aria-invalid="true"] {
+    border-width: 2px;
+}
+
+:focus-visible {
+    outline: 2px solid var(--roxo);
+    outline-offset: 2px;
+}
+
+::selection {
+    background: var(--roxo);
+    color: #fff;
+}

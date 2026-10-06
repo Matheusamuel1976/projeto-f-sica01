@@ -1,0 +1,14 @@
+{
+    "name": "escola/agua-em-observacao",
+    "description": "Experimento escolar de qualidade da água e biofiltro",
+    "type": "project",
+    "require": { "php": ">=8.3" },
+    "require-dev": { "phpunit/phpunit": "^12.5" },
+    "scripts": {
+        "test": "phpunit",
+        "coverage": [
+            "@php -d xdebug.mode=coverage vendor/phpunit/phpunit/phpunit --colors=never --coverage-text --coverage-html reports/coverage --coverage-clover reports/clover.xml",
+            "@php tests/verificar-cobertura.php"
+        ]
+    }
+}

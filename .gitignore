@@ -1,0 +1,6 @@
+/vendor/
+/.phpunit.cache/
+/reports/coverage/
+/reports/clover.xml
+/graphify-out/
+/data/amostras.json
